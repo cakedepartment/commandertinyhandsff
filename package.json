@@ -1,0 +1,57 @@
+{
+	"title": "Commander Tinyhands",
+	"name": "commandertinyhands",
+	"version": "1.0.0",
+	"description": "Make the internet a little more tolerable by replacing references to Trump in all webpages with something more fitting. (And Pence, too.)",
+	"main": "index.js",
+	"author": "Cake Department",
+	"engines": {
+		"firefox": ">=38.0a1",
+		"fennec": ">=38.0a1"
+	},
+	"icon": "resource://@commandertinyhands/data/icon.png",
+	"preferences": [{
+		"name": "tinyHandedName",
+		"title": "'Trump' becomes what?",
+		"description": "Also applies to 'Donald Trump'",
+		"type": "string",
+		"value": "Tinyhands"
+	},
+	{
+		"name": "tinyHandedHonorific",
+		"title": "'President' becomes what?",
+		"type": "string",
+		"value": "Commander"
+	},
+	{
+		"name": "letGetSoGreat",
+		"title": "'President-elect Trump' becomes what?",
+		"type": "string",
+		"value": "Once And Future Tiny-handed King",
+		"description": "Applies with or without 'Donald'"
+
+	},
+	{
+		"name": "renameSidekick",
+		"title": "Rename Pence too?",
+		"type": "bool",
+		"value": false
+	},
+	{
+		"name": "sidekickName",
+		"title": "'Pence' becomes what?",
+		"description": "Also applies to 'Mike Pence'",
+		"type": "string",
+		"value": "Mikey McRainBawls"
+	},
+	{
+		"name": "sidekickHonorific",
+		"title": "'Vice President' becomes what?",
+		"type": "string",
+		"value": "Private"
+	}],
+	"license": "MIT",
+	"keywords": [
+		"Trump", "Drumpf", "Donald", "Pence", "President"
+	]
+}
